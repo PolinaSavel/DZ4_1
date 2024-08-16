@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Lesson_4_1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int num1 = scanner.nextInt();
+        int F=1;
+        for (int i = 1; i <= (num1); i++) {
+           F = F * i;
+        }
+        System.out.println("Факториал числа " + num1 +": " + F);
+    }
+}
